@@ -1,0 +1,4 @@
+# Ignore generated drop chance exports
+/drop_chance/*.csv
+/drop_chance/**/*.csv
+!/drop_chance/.gitkeep
