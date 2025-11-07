@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# große/auto-generierte Artefakte: keine Web-Diffs rendern
+drop_chance/** -diff
+*.json -diff
+*.bytes -diff
+*.assets -diff
+*.bundle -diff
+*.unity3d -diff
+
+# Klassifiziere generierte Daten
+drop_chance/** linguist-generated
+*.min.* linguist-generated
